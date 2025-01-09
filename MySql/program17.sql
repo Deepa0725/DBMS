@@ -1,0 +1,5 @@
+SELECT USN, Name, GPA FROM STUDENT; 
+
+
+SELECT * FROM STUDENT  
+WHERE YEAR(Date_of_Birth) = 2000;  

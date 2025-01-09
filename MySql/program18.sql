@@ -1,0 +1,8 @@
+SELECT * FROM STUDENT  
+WHERE Branch = 'MCA';
+
+
+
+SELECT Branch, MAX(GPA) AS MaxGPA  
+FROM STUDENT 
+GROUP BY Branch; 
